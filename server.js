@@ -170,5 +170,5 @@ app.get('/populateduser', function(req, res) {
 
 // Listen on Port 3000
 app.listen(3000, function() {
-  console.log('App running on port 3005!');
+  console.log('App running on port 3000!');
 });
