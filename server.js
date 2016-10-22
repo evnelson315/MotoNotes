@@ -23,7 +23,6 @@ request("https://austin.craigslist.org/search/mcy", function (error, response, h
 
   // Select each instance of the html body that you want to scrape.
   // NOTE: Cheerio selectors function similarly to jQuery's selectors, 
-  // but be sure to visit the package's npm page to see how it works.
   $("div.rows").each(function(i, element){
 
   var bikeText = $(element).find('p').find('span.txt').find('span.pl').find('a').find('span').text();
